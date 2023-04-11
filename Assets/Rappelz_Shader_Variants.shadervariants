@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rappelz_Shader_Variants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _DETAIL_MULX2 _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: SHADOWS_DEPTH _SPECGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH _SPECGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON _DETAIL_MULX2 _NORMALMAP _SPECGLOSSMAP
+        passType: 10
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON _METALLICGLOSSMAP
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: _NORMALMAP
+        passType: 10
+      - keywords: _ALPHATEST_ON _NORMALMAP
+        passType: 10
+      - keywords: _ALPHATEST_ON _EMISSION _NORMALMAP
+        passType: 10
+      - keywords: _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: INSTANCING_ON _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _ALPHATEST_ON _METALLICGLOSSMAP
+        passType: 10
+      - keywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 10
+      - keywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 10
+      - keywords: _ALPHATEST_ON _SPECULARHIGHLIGHTS_OFF
+        passType: 10
+      - keywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 10
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SINGLE_CASCADE
+        passType: 0
+  - first: {fileID: 74, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 0
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 0
+  - first: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 10
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1a5c990a33033ab4f8f2b7afd12dc04c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 466b7510f3f380f4591f910d3f163b01, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+  - first: {fileID: 4800000, guid: 67a40b7f398f1234894d68621553e144, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 8f98f67343da82042be968cffc7ef788, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHABLEND_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL _GLOSSYREFLECTIONS_OFF _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _NORMALMAP _PARALLAXMAP
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _PARALLAXMAP
+        passType: 8
+      - keywords: _NORMALMAP
+        passType: 10
+      - keywords: _EMISSION _NORMALMAP
+        passType: 10
+      - keywords: _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _DETAIL_MULX2 _METALLICGLOSSMAP _NORMALMAP
+        passType: 10
+      - keywords: _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 10
+      - keywords: DYNAMICLIGHTMAP_ON _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 10
+      - keywords: _EMISSION _NORMALMAP _PARALLAXMAP
+        passType: 10
+      - keywords: _METALLICGLOSSMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 11
+  - first: {fileID: 4800000, guid: 9f3f6f752b5025443bac6d8a81d38478, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ce4cea5500fd1664ab8ec906187a8f6e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fae506292eb71e046a27f08f86a6215b, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: fd5f780b0e4da4534ad95b35d5ac3079, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

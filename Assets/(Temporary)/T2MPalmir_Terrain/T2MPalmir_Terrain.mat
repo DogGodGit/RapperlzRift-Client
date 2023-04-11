@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: T2MPalmir_Terrain
+  m_Shader: {fileID: 4800000, guid: 466b7510f3f380f4591f910d3f163b01, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Control:
+        m_Texture: {fileID: 2800000, guid: ad8d87611ac3dde459d97e8344512eb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat1:
+        m_Texture: {fileID: 2800000, guid: 1f30349890328184ab2b0ef4d99ee6b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat1_bumpMap:
+        m_Texture: {fileID: 2800000, guid: 43cb8cc81c621fc4394011a99d9ac157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat2:
+        m_Texture: {fileID: 2800000, guid: ee9d90394d05b504787339d5a69632e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat2_bumpMap:
+        m_Texture: {fileID: 2800000, guid: e457fceae84f50f48a3f03b92995e67e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat3:
+        m_Texture: {fileID: 2800000, guid: 4a7daa1aefe59ec459125f4bce223c1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_T2M_Splat3_bumpMap:
+        m_Texture: {fileID: 2800000, guid: 1ad2581d0aa37f54ebabdf5c2d854e7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _V_T2M_Splat1_Shininess: 0.06
+    - _V_T2M_Splat1_uvScale: 50
+    - _V_T2M_Splat2_Shininess: 0.06
+    - _V_T2M_Splat2_uvScale: 25
+    - _V_T2M_Splat3_Shininess: 0.03
+    - _V_T2M_Splat3_uvScale: 13.333333
+    m_Colors:
+    - _Color: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _SpecColor: {r: 0.32352942, g: 0.32352942, b: 0.32352942, a: 1}

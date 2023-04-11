@@ -1,0 +1,58 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class LoginWithEntermateNACommand : NativeApiCommand
+{
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Constructors
+
+	public LoginWithEntermateNACommand() : base("LoginWithEntermate")
+	{
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member functions
+
+	protected override NativeApiResponse CreateResponse()
+	{
+		return new LoginWithEntermateNAResponse();
+	}
+}
+
+public class LoginWithEntermateNAResponse : NativeApiResponse
+{
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Constants
+
+	public const int kResult_Canceled = 101;
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member variables
+
+	private string	m_sEntermateUserId = null;
+	private string	m_sEntermatePrivateKey = null;
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Properties
+
+	public string entermateUserId
+	{
+		get { return m_sEntermateUserId; }
+	}
+
+	public string entermatePrivateKey
+	{
+		get { return m_sEntermatePrivateKey; }
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member functions
+
+	protected override void HandleBody()
+	{
+		base.HandleBody();
+
+		m_sEntermateUserId = LitJsonUtil.GetStringProperty(m_joContent, "entermateUserId");
+		m_sEntermatePrivateKey = LitJsonUtil.GetStringProperty(m_joContent, "entermatePrivateKey");
+	}
+}

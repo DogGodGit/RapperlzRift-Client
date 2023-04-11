@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1380704147939010}
+  m_IsPrefabParent: 1
+--- !u!1 &1380704147939010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4438234547699810}
+  - component: {fileID: 114874828755544178}
+  - component: {fileID: 114546006420925942}
+  - component: {fileID: 114815660485187622}
+  m_Layer: 16
+  m_Name: StreetSpotLight_Volume_Sirag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 16
+  m_IsActive: 1
+--- !u!4 &4438234547699810
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380704147939010}
+  m_LocalRotation: {x: 0.5609856, y: -0.4304593, z: 0.4304593, w: 0.56098557}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1.38335, y: 1.3833499, z: 1.383349}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114546006420925942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380704147939010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39f0f7e17f11f2448932da58e9b63d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha: 0.578
+  size: 0.02
+  direction: 0
+  speed: 0.03
+  density: 2
+  spawnMaxDistance: 0.7
+  cullingEnabled: 1
+  cullingMaxDistance: 2
+--- !u!114 &114815660485187622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380704147939010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558dd6d156642974780bc97cd2ab1bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  minOccluderArea: 0
+  waitFrameCount: 3
+  planeAlignment: 0
+  planeOffset: 0.1
+--- !u!114 &114874828755544178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380704147939010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b69c542c9a8f4f44a3123e3fa103d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorFromLight: 1
+  color: {r: 1, g: 0.8004902, b: 0.43382353, a: 0.576}
+  alphaInside: 1
+  alphaOutside: 1
+  spotAngleFromLight: 1
+  spotAngle: 100.2
+  coneRadiusStart: 0
+  geomSides: 18
+  geomCap: 0
+  fadeEndFromLight: 1
+  attenuationEquation: 0
+  attenuationCustomBlending: 0.5
+  fadeStart: 0
+  fadeEnd: 1.34
+  depthBlendDistance: 5
+  cameraClippingDistance: 0.25
+  glareFrontal: 0.8
+  glareBehind: 0.8
+  boostDistanceInside: 0.5
+  fresnelPowInside: 6
+  fresnelPow: 1.9999999
+  noiseEnabled: 0
+  noiseIntensity: 0.5
+  noiseScaleUseGlobal: 1
+  noiseScaleLocal: 0.5
+  noiseVelocityUseGlobal: 1
+  noiseVelocityLocal: {x: 0.07, y: 0.18, z: 0.05}
+  trackChangesDuringPlaytime: 0
+  pluginVersion: 1320

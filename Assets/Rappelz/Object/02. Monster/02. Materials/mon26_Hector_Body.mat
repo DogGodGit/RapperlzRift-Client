@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mon26_Hector_Body
+  m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHATEST_ON _COLORBLENDING_ON _DISSOLVEGLOW_ON _EMISSION _METALLICGLOSSMAP
+    _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5c2e871196de91a48a14aad8f0f906b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23f8f47545efeeb499e973e12356450b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 97f71f2d7e5569442a585a6d5e56b296, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: 2ff64335ec8244d4392d9b80b42b3041, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 72b1bb295756843889b97a3dc58ba5dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 8f0d2fd95dc58c44f9b1386c688bc7a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: a44d6762413c5614d97ba74211f274c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _basetexture:
+        m_Texture: {fileID: 2800000, guid: 6bff21657ddb5694592c1b0b6283ef2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _envmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _fresnelwarp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maskmap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maskmap2:
+        m_Texture: {fileID: 2800000, guid: fa4175ad92a46794581aac5d51975d93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalmap:
+        m_Texture: {fileID: 2800000, guid: 60941c45638c08344b18d21325c50a4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 0
+    - _BackWardPower: 1
+    - _BumpScale: 0.5
+    - _Cutoff: 0.53
+    - _DetailNormalMapScale: 1
+    - _DisintegrateAmount: 0
+    - _DissolveEdge: 0.01
+    - _DstBlend: 0
+    - _GlossMapScale: 0.6
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TileFactor: 1
+    - _UVSec: 0
+    - _UseBackward: 0
+    - _ZWrite: 1
+    - _ambientscale: 1
+    - _envmapintensity: 0
+    - _fresnelwarpblendtonone: 0
+    - _maskenvbymetalness: 0
+    - _rimlightblendtofull: 0
+    - _rimlightscale: 1
+    - _selfillumblendtofull: 0
+    - _specularblendtofull: 0
+    - _specularexponent: 1
+    - _specularscale: 1
+    m_Colors:
+    - <noninit>: {r: 0, g: 1.7166543e-34, b: 0, a: 1.716647e-34}
+    - _BackWardColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+    - _DissolveColor: {r: 1, g: 0.5, b: 0.2, a: 0}
+    - _EdgeEmission: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _rimlightcolor: {r: 1, g: 1, b: 1, a: 1}
+    - _specularcolor: {r: 1, g: 1, b: 1, a: 1}

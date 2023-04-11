@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 667ffcc2de821b8488e1459bfdc8d74b
+timeCreated: 1492502972
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: IK Chain001
+    100004: IK Chain002
+    100006: IK Chain004
+    100008: IK Chain005
+    100010: IK Chain006
+    100012: IK Chain007
+    100014: IK Chain008
+    100016: IK Chain009
+    100018: leg00
+    100020: leg01
+    100022: leg02
+    100024: leg03
+    100026: leg04
+    100028: leg05
+    100030: leg06
+    100032: leg07
+    100034: leg08
+    100036: leg09
+    100038: leg10
+    100040: leg11
+    100042: leg12
+    100044: leg13
+    100046: leg14
+    100048: leg15
+    100050: leg16
+    100052: leg17
+    100054: leg18
+    100056: leg19
+    100058: leg20
+    100060: leg21
+    100062: leg22
+    100064: leg23
+    100066: leg24
+    100068: leg25
+    100070: leg26
+    100072: leg27
+    100074: legFL
+    100076: legFR
+    100078: //RootNode
+    100080: tail
+    400000: body
+    400002: IK Chain001
+    400004: IK Chain002
+    400006: IK Chain004
+    400008: IK Chain005
+    400010: IK Chain006
+    400012: IK Chain007
+    400014: IK Chain008
+    400016: IK Chain009
+    400018: leg00
+    400020: leg01
+    400022: leg02
+    400024: leg03
+    400026: leg04
+    400028: leg05
+    400030: leg06
+    400032: leg07
+    400034: leg08
+    400036: leg09
+    400038: leg10
+    400040: leg11
+    400042: leg12
+    400044: leg13
+    400046: leg14
+    400048: leg15
+    400050: leg16
+    400052: leg17
+    400054: leg18
+    400056: leg19
+    400058: leg20
+    400060: leg21
+    400062: leg22
+    400064: leg23
+    400066: leg24
+    400068: leg25
+    400070: leg26
+    400072: leg27
+    400074: legFL
+    400076: legFR
+    400078: //RootNode
+    400080: tail
+    7400000: mon_spider_die
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mon_spider_die
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.022139037
+        functionName: OnAnimDeadSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9215788
+        functionName: OnAnimDeadEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/leg00
+        weight: 1
+      - path: body/leg00/leg01
+        weight: 1
+      - path: body/leg00/leg01/leg18
+        weight: 1
+      - path: body/leg02
+        weight: 1
+      - path: body/leg02/leg03
+        weight: 1
+      - path: body/leg02/leg03/leg19
+        weight: 1
+      - path: body/leg04
+        weight: 1
+      - path: body/leg04/leg05
+        weight: 1
+      - path: body/leg04/leg05/leg20
+        weight: 1
+      - path: body/leg06
+        weight: 1
+      - path: body/leg06/leg07
+        weight: 1
+      - path: body/leg06/leg07/leg21
+        weight: 1
+      - path: body/leg08
+        weight: 1
+      - path: body/leg08/leg09
+        weight: 1
+      - path: body/leg08/leg09/leg22
+        weight: 1
+      - path: body/leg10
+        weight: 1
+      - path: body/leg10/leg11
+        weight: 1
+      - path: body/leg10/leg11/leg23
+        weight: 1
+      - path: body/leg12
+        weight: 1
+      - path: body/leg12/leg13
+        weight: 1
+      - path: body/leg12/leg13/leg24
+        weight: 1
+      - path: body/leg14
+        weight: 1
+      - path: body/leg14/leg15
+        weight: 1
+      - path: body/leg16
+        weight: 1
+      - path: body/leg16/leg17
+        weight: 1
+      - path: body/leg25
+        weight: 1
+      - path: body/leg25/leg26
+        weight: 1
+      - path: body/leg25/leg26/leg27
+        weight: 1
+      - path: body/legFL
+        weight: 1
+      - path: body/legFR
+        weight: 1
+      - path: body/tail
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      - path: IK Chain006
+        weight: 1
+      - path: IK Chain007
+        weight: 1
+      - path: IK Chain008
+        weight: 1
+      - path: IK Chain009
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,92 @@
+﻿using UnityEngine;
+using System;
+using System.Collections;
+using System.Xml.Linq;
+
+namespace PubKit
+{
+	public class PKPubKit
+	{
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Member variables
+
+		private bool	m_bIsNativeBuild = false;
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Properties
+
+		public bool isNativeBuild
+		{
+			get { return m_bIsNativeBuild; }
+			set { m_bIsNativeBuild = value; }
+		}
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Constructors
+
+		private PKPubKit()
+		{
+		}
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// 초기화
+
+		private void Init()
+		{
+			m_bIsNativeBuild = false;
+
+			LoadConfig();
+		}
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Config 로딩
+
+		//
+		// Config
+		//
+		
+		private void LoadConfig()
+		{
+			XElement xeRoot = PKResourceUtil.LoadConfig("Config");
+			
+			if (xeRoot == null)
+				return;
+			
+			LoadConfig_Config(xeRoot);
+		}
+
+		private void LoadConfig_Config(XElement xeConfig)
+		{
+			//
+			// Config 기본정보 로딩.
+			//
+
+			string sIsNativeBuild = (string)xeConfig.Attribute("isNativeBuild");
+			
+			if (!string.IsNullOrEmpty(sIsNativeBuild))
+				m_bIsNativeBuild = bool.Parse(sIsNativeBuild);
+		}
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Static member variables
+
+		private static PKPubKit	s_instance = null;
+
+		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Static properties
+
+		public static PKPubKit instance
+		{
+			get
+			{
+				if (s_instance == null)
+				{
+					s_instance = new PKPubKit();
+					s_instance.Init();
+				}
+
+				return s_instance;
+			}
+		}
+	}
+}

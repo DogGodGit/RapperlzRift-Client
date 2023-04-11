@@ -1,0 +1,3313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf34402cb255db74c93f05a0eced356a, type: 3}
+  m_Name: Ceriu_Preset
+  m_EditorClassIdentifier: 
+  currentPresetName: Ceriu_castle
+  whatToRestore: 4
+  matPresets:
+  - name: Ceriu_castle
+    shader: {fileID: 4800000, guid: 8793935a89241024a8b9616db346a230, type: 3}
+    props:
+    - type: 0
+      name: _Color
+      floatValue: 0
+      colorValue: {r: 0.6764706, g: 0.6416522, b: 0.6416522, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _Color2
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MainTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 56d5950913734574b8cfef578b1c1d97, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _MainTex2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _DecalMaskGUI
+      floatValue: 3
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DecalMask
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Pierceable
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Cutoff
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _CutoffEdgeGlow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0.02}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Glossiness
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Glossiness2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Metallic
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Metallic2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MetallicGlossMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 270b5fb0941a9b84ea0addbddb40ff29, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _MetallicGlossMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _BumpScale
+      floatValue: 0.85
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _BumpScale2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _BumpMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 954be14340adcff4c90348976ba7acf2, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _BumpMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _Parallax
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Parallax2
+      floatValue: 0.04
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _ParallaxMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _ParallaxMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _OcclusionStrength
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _OcclusionStrength2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SecOcclusionStrength
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _OcclusionMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _EmissionColor
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _EmissionMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _DetailMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _DetailAlbedoMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _DetailNormalMapScale
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _DetailNormalMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _UVSec
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UVSecOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UVSecOcclusionLightmapPacked
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Mode
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SrcBlend
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DstBlend
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _ZWrite
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DiffuseScatter
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DiffuseScatteringColor
+      floatValue: 0
+      colorValue: {r: 0.27205884, g: 0.1220264, b: 0.1220264, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DiffuseScatteringColor2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DiffuseScatteringExponent
+      floatValue: 5.08
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DiffuseScatteringOffset
+      floatValue: -0.218
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlossMin
+      floatValue: 0.2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlossMax
+      floatValue: 0.7
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _BendNormalsFreq
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _BendNormalsStrength
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DetailUVMult
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailNormalLerp
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DetailColor
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailEmissiveness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SpecularRGBGlossADetail
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _DetailSpecLerp
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DetailSpecGloss
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MetallicGlossMapDetail
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _DetailMetalness
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailGloss
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanEmissionMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanUSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanVSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PulsateEmission
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _EmissionPulsateSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _MinPulseBrightness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Translucency
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _TranslucencyColor
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _TranslucencyColor2
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyStrength
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyPointLightDirectionality
+      floatValue: 0.7
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyConstant
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyNormalOffset
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyExponent
+      floatValue: 30
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencySuppressRealtimeShadows
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyNDotL
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyDeferredLightIndex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DepthWrite
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Depth
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DistSteps
+      floatValue: 64
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ReliefMIPbias
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _ObjectNormalsTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _ObjectTangentsTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 1
+      name: _CurvatureMultOffset
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: _Tan2ObjectMultOffset
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: _UV_Clip_Borders
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _POM_BottomCut
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM_MeshIsVolume
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM_ExtrudeVolume
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMPrecomputedFlag
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMCurvatureType
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DepthReductionDistance
+      floatValue: 20
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureCustomU
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureCustomV
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureMultU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureMultV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjCustomU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjCustomV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjMultU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjMultV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UV_Clip
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMShadows
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ShadowStrength
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DistStepsShadows
+      floatValue: 64
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ShadowMIPbias
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Softness
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SoftnessFade
+      floatValue: 0.4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Refraction
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RefractionBumpScale
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RefractionChromaticAberration
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Wetness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessLevel
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessConst
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _WetnessColor
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessDarkening
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _WetnessSpecGloss
+      floatValue: 0
+      colorValue: {r: 0.05, g: 0.05, b: 0.05, a: 0.7}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessEmissiveness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormalInfluence
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessUVMult
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: c6fd300e6b6fb5a41a10a6dcbe337207, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _WetRipples
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMapWet
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: c6fd300e6b6fb5a41a10a6dcbe337207, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _RippleStrength
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleSpecFilter
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleAnimSpeed
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _FlowCycleScale
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RippleRefraction
+      floatValue: 0.3
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormMIP
+      floatValue: 5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormStrength
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessEmissivenessWrap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessLevelFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessConstFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessFlowGlobalTime
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessMergeWithSnowPerMaterial
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleStrengthFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RainIntensityFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetDroplets
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _DropletsMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 471631afc291fae4087fd072b5dbe4f3, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _RainIntensity
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DropletsTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DropletsAnimSpeed
+      floatValue: 10
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RainIntensityFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TessDepth
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TessOffset
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Tess
+      floatValue: 9
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TessEdgeLengthLimit
+      floatValue: 5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: minDist
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: maxDist
+      floatValue: 10
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Phong
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Snow
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMapSnow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: c6fd300e6b6fb5a41a10a6dcbe337207, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _SnowColorAndCoverage
+      floatValue: 0
+      colorValue: {r: 0.5147059, g: 0.2902398, b: 0.1892301, a: 0.304}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Frost
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowSpecGloss
+      floatValue: 0
+      colorValue: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowSlopeDamp
+      floatValue: 1.17
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowDiffuseScatteringColor
+      floatValue: 0
+      colorValue: {r: 0.41176468, g: 0.3994034, b: 0.29974046, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDiffuseScatteringExponent
+      floatValue: 12
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDiffuseScatteringOffset
+      floatValue: -0.3
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDeepSmoothen
+      floatValue: 5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SparkleMapSnow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _SnowEmissionTransparency
+      floatValue: 0
+      colorValue: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowMicroTiling
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowBumpMicro
+      floatValue: 0.0843
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowMacroTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowBumpMacro
+      floatValue: 0.117
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowWorldMapping
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowWorldMapping
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDissolve
+      floatValue: 0.43
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDissolveMaskOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowTranslucencyColor
+      floatValue: 0
+      colorValue: {r: 0.75, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowGlitterColor
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowHeightThreshold
+      floatValue: -10000
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowHeightThresholdTransition
+      floatValue: 1000
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowLevelFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _FrostFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowBumpMicroFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowDissolveFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowSpecGlossFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowGlitterColorFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Glitter
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SparkleMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _SparkleMapGlitter
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _GlitterColor
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _GlitterColor2
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterColorization
+      floatValue: 0.2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterDensity
+      floatValue: 0.2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterAnimationFrequency
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterFilter
+      floatValue: -1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _ShadowCull
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _MainShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SecondaryShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PresetsShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Occlusion_from_albedo_alpha
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Smoothness_from_albedo_alpha
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: heightMapTexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 1, y: 1, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: bumpMapTexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0.0009765625, y: 0.0009765625, z: 1024, w: 1024}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: bumpMap2TexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 1, y: 1, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+  - name: a04_RelicsofAridMoonlight_entrance_FloorTile
+    shader: {fileID: 4800000, guid: fd1b0c2328cad6942aa89eb15af421f0, type: 3}
+    props:
+    - type: 0
+      name: _Color
+      floatValue: 0
+      colorValue: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _Color2
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MainTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: db0c1ca1ef9b6dd4eb2f2029ba464f89, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _MainTex2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _DecalMaskGUI
+      floatValue: 3
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DecalMask
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Pierceable
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Cutoff
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _CutoffEdgeGlow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0.02}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Glossiness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Glossiness2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Metallic
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Metallic2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MetallicGlossMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: e72e1a425d6ba494081d8623873d6f69, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _MetallicGlossMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _BumpScale
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _BumpScale2
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _BumpMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: a68d7d72bdbb84f48a9c0bd936ff5647, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _BumpMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _Parallax
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Parallax2
+      floatValue: 0.04
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _ParallaxMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _ParallaxMap2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _OcclusionStrength
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _OcclusionStrength2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SecOcclusionStrength
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _OcclusionMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _EmissionColor
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _EmissionMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _DetailMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _DetailAlbedoMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _DetailNormalMapScale
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _DetailNormalMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _UVSec
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UVSecOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UVSecOcclusionLightmapPacked
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Mode
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SrcBlend
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DstBlend
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _ZWrite
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DiffuseScatter
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DiffuseScatteringColor
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DiffuseScatteringColor2
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DiffuseScatteringExponent
+      floatValue: 8
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DiffuseScatteringOffset
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlossMin
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlossMax
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _BendNormalsFreq
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _BendNormalsStrength
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DetailUVMult
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailNormalLerp
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DetailColor
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailEmissiveness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SpecularRGBGlossADetail
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _DetailSpecLerp
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _DetailSpecGloss
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _MetallicGlossMapDetail
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _DetailMetalness
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DetailGloss
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanEmissionMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanUSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PanVSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PulsateEmission
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _EmissionPulsateSpeed
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _MinPulseBrightness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Translucency
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _TranslucencyColor
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _TranslucencyColor2
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyStrength
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyPointLightDirectionality
+      floatValue: 0.7
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyConstant
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyNormalOffset
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyExponent
+      floatValue: 30
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencySuppressRealtimeShadows
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TranslucencyNDotL
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TranslucencyDeferredLightIndex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DepthWrite
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Depth
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DistSteps
+      floatValue: 64
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ReliefMIPbias
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _ObjectNormalsTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _ObjectTangentsTex
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 1
+      name: _CurvatureMultOffset
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: _Tan2ObjectMultOffset
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: _UV_Clip_Borders
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _POM_BottomCut
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM_MeshIsVolume
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POM_ExtrudeVolume
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMPrecomputedFlag
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMCurvatureType
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _DepthReductionDistance
+      floatValue: 20
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureCustomU
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureCustomV
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureMultU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _CurvatureMultV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjCustomU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjCustomV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjMultU
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Tan2ObjMultV
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _UV_Clip
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _POMShadows
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ShadowStrength
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DistStepsShadows
+      floatValue: 64
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _ShadowMIPbias
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Softness
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SoftnessFade
+      floatValue: 0.4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Refraction
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RefractionBumpScale
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RefractionChromaticAberration
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Wetness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessLevel
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessConst
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _WetnessColor
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessDarkening
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _WetnessSpecGloss
+      floatValue: 0
+      colorValue: {r: 0.05, g: 0.05, b: 0.05, a: 0.7}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessEmissiveness
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormalInfluence
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessUVMult
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 2
+      name: _WetRipples
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMapWet
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _RippleStrength
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleSpecFilter
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleAnimSpeed
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _FlowCycleScale
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _RippleRefraction
+      floatValue: 0.3
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormMIP
+      floatValue: 5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _WetnessNormStrength
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessEmissivenessWrap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessLevelFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessConstFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessFlowGlobalTime
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetnessMergeWithSnowPerMaterial
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RippleStrengthFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RainIntensityFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _WetDroplets
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _DropletsMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 471631afc291fae4087fd072b5dbe4f3, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 3
+      name: _RainIntensity
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DropletsTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _DropletsAnimSpeed
+      floatValue: 10
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _RainIntensityFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _TessDepth
+      floatValue: 0.05
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TessOffset
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Tess
+      floatValue: 9
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _TessEdgeLengthLimit
+      floatValue: 5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: minDist
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: maxDist
+      floatValue: 10
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Phong
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Snow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _RippleMapSnow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 4d78c388d122b294d9dad82d13d2d3bc, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _SnowColorAndCoverage
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _Frost
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowSpecGloss
+      floatValue: 0
+      colorValue: {r: 0.1, g: 0.1, b: 0.1, a: 0.15}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowSlopeDamp
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowDiffuseScatteringColor
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDiffuseScatteringExponent
+      floatValue: 6
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDiffuseScatteringOffset
+      floatValue: 0.4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDeepSmoothen
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SparkleMapSnow
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _SnowEmissionTransparency
+      floatValue: 0
+      colorValue: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowMicroTiling
+      floatValue: 4
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowBumpMicro
+      floatValue: 0.08
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowMacroTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowBumpMacro
+      floatValue: 0.1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowWorldMapping
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowWorldMapping
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDissolve
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowDissolveMaskOcclusion
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowTranslucencyColor
+      floatValue: 0
+      colorValue: {r: 0.75, g: 1, b: 1, a: 1}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _SnowGlitterColor
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowHeightThreshold
+      floatValue: -10000
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _SnowHeightThresholdTransition
+      floatValue: 1000
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowLevelFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _FrostFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowBumpMicroFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowDissolveFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowSpecGlossFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SnowGlitterColorFromGlobal
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Glitter
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 4
+      name: _SparkleMap
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 4
+      name: _SparkleMapGlitter
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 2800000, guid: 8311693489c9728459f451148124b4ae, type: 3}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 1, y: 1}
+    - type: 0
+      name: _GlitterColor
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 0
+      name: _GlitterColor2
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterColorization
+      floatValue: 0.2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterDensity
+      floatValue: 0.2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterTiling
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _GlitterAnimationFrequency
+      floatValue: 0.02
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterFilter
+      floatValue: -1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 3
+      name: _GlitterMask
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _ShadowCull
+      floatValue: 2
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _MainShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _SecondaryShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _PresetsShown
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 2
+      name: _Occlusion_from_albedo_alpha
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0, y: 0, z: 0, w: 0}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: heightMapTexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 1, y: 1, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: bumpMapTexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 0.0009765625, y: 0.0009765625, z: 1024, w: 1024}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+    - type: 1
+      name: bumpMap2TexelSize
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      vectorValue: {x: 1, y: 1, z: 1, w: 1}
+      textureValue: {fileID: 0}
+      textureOffset: {x: 0, y: 0}
+      textureScale: {x: 0, y: 0}
+  names:
+  - Ceriu_castle
+  - a04_RelicsofAridMoonlight_entrance_FloorTile

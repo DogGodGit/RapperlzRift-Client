@@ -1,0 +1,58 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class LoginWithFacebookNACommand : NativeApiCommand
+{
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Constructors
+
+	public LoginWithFacebookNACommand() : base("LoginWithFacebook")
+	{
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member functions
+
+	protected override NativeApiResponse CreateResponse()
+	{
+		return new LoginWithFacebookNAResponse();
+	}
+}
+
+public class LoginWithFacebookNAResponse : NativeApiResponse
+{
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Constants
+
+	public const int kResult_Canceled = 101;
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member variables
+
+	private string	m_sFacebookAppId = null;
+	private string	m_sFacebookUserId = null;
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Properties
+
+	public string facebookAppId
+	{
+		get { return m_sFacebookAppId; }
+	}
+
+	public string facebookUserId
+	{
+		get { return m_sFacebookUserId; }
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Member functions
+
+	protected override void HandleBody()
+	{
+		base.HandleBody();
+
+		m_sFacebookAppId = LitJsonUtil.GetStringProperty(m_joContent, "facebookAppId");
+		m_sFacebookUserId = LitJsonUtil.GetStringProperty(m_joContent, "facebookUserId");
+	}
+}
