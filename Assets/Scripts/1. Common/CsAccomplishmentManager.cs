@@ -4,21 +4,80 @@ using System;
 
 public enum EnAccomplishment
 {
-	MaxLevel = 1,
-	MaxBattlePower = 2,
-	MaxGold = 3,
-	MaxMainQuest = 4,
-	AccMonsterKill = 5,
-	AccSoulCoveterPlay = 6,
-	AccEpicBaitItemUse = 7,
-	AccLegendBaitItemUse = 8,
-	AccNationWarWin = 9,
-	AccNationWarKill = 10,
-	AccNationWarCommanderKill = 11,
-	AccNationWarImmediateRevival = 12,
-	MaxAcquisitionMainGearGrade = 13,
-	MaxEquippedMainGearEnchantLevel = 14,
-	ActivateCreatureCardCollection = 15,
+    /// <summary>
+    /// 레벨 달성 达到水平
+    /// </summary>
+    MaxLevel = 1,
+
+    /// <summary>
+    /// 전투력 달성 获得战斗力
+    /// </summary>
+    MaxBattlePower = 2,
+
+    /// <summary>
+    /// 보유골드 달성 实现黄金储备
+    /// </summary>
+    MaxGold = 3,
+
+    /// <summary>
+    /// 메인퀘스트 완료 完成主任务
+    /// </summary>
+    MaxMainQuest = 4,
+
+    /// <summary>
+    /// 몬스터 처치 달성 实现怪物杀戮
+    /// </summary>
+    AccMonsterKill = 5,
+
+    /// <summary>
+    /// 영혼을탐하는자입장횟수 寻魂记的条目数量
+    /// </summary>
+    AccSoulCoveterPlay = 6,
+
+    /// <summary>
+    /// 에픽미끼사용 x회 使用史诗般的诱饵x次
+    /// </summary>
+    AccEpicBaitItemUse = 7,
+
+    /// <summary>
+    /// 전설미끼사용 x회 使用传说中的诱饵x次
+    /// </summary>
+    AccLegendBaitItemUse = 8,
+
+    /// <summary>
+    /// 국가전승리 횟수 全国性胜利的数量
+    /// </summary>
+    AccNationWarWin = 9,
+
+    /// <summary>
+    /// 국가전적처치수 全国治疗率
+    /// </summary>
+    AccNationWarKill = 10,
+
+    /// <summary>
+    /// 국가전사령관처치 打败国家军阀
+    /// </summary>
+    AccNationWarCommanderKill = 11,
+
+    /// <summary>
+    /// 국가전즉시부활(무료유료) 全国即时复活（免费，付费）。
+    /// </summary>
+    AccNationWarImmediateRevival = 12,
+
+    /// <summary>
+    /// 획득메인장비등급 获得的主要设备类别
+    /// </summary>
+    MaxAcquisitionMainGearGrade = 13,
+
+    /// <summary>
+    /// 강화된메인장비장착 增强的主要设备
+    /// </summary>
+    MaxEquippedMainGearEnchantLevel = 14,
+
+    /// <summary>
+    /// 카드조합모두활성화 启用所有卡片组合
+    /// </summary>
+    ActivateCreatureCardCollection = 15,
 }
 
 
@@ -26,8 +85,8 @@ public class CsAccomplishmentManager
 {
 	bool m_bWaitResponse = false;
 
-	List<int> m_listRewardedAccomplishments;        // 보상받은업적목록. 배열항목 : 업적ID
-	int m_nAccMonsterKillCount;                     // 누적몬스터킬카운트
+	List<int> m_listRewardedAccomplishments;        // 보상받은업적목록. 배열항목 : 업적ID 奖励的成就列表。数组项目：成就ID
+    int m_nAccMonsterKillCount;                     // 누적몬스터킬카운트
 	int m_nAccSoulCoveterPlayCount;                 // 누적영혼을탐하는자플레이횟수
 	int m_nAccEpicBaitItemUseCount;                 // 누적에픽미끼아이템사용횟수
 	int m_nAccLegendBaitItemUseCount;               // 누적전설미끼아이템사용횟수
@@ -215,27 +274,11 @@ public class CsAccomplishmentManager
 		CsRplzSession.Instance.EventEvtAccNationWarCommanderKillCountUpdated -= OnEventEvtAccNationWarCommanderKillCountUpdated;
 	}
 
-	//---------------------------------------------------------------------------------------------------
-	/*
-	1 : 레벨 달성
-	2 : 전투력 달성
-	3 : 보유골드 달성
-	4 : 메인퀘스트 완료
-	5 : 몬스터 처치 달성
-	6 : 영혼을탐하는자입장횟수
-	7 : 에픽미끼사용 x회
-	8 : 전설미끼사용 x회
-	9 : 국가전승리 횟수
-	10 : 국가전적처치수
-	11 : 국가전사령관처치
-	12 : 국가전즉시부활(무료유료)
-	13 : 획득메인장비등급
-	14 : 강화된메인장비장착
-	15 : 카드조합모두활성화
-	*/
-
-    //---------------------------------------------------------------------------------------------------
-	public bool CheckAccomplishmentNotice()
+    /// <summary>
+    /// 检查成就通知
+    /// </summary>
+    /// <returns></returns>
+    public bool CheckAccomplishmentNotice()
 	{
 		for (int i = 0; i < CsGameData.Instance.AccomplishmentList.Count; i++)
 		{
@@ -321,7 +364,7 @@ public class CsAccomplishmentManager
                 lObjectiveValue = CsGameData.Instance.AccomplishmentList[i].ObjectiveValue;
             }
 
-            if (lObjectiveValue <= lAccValue)
+            if (lObjectiveValue <= lAccValue && m_listRewardedAccomplishments != null)
             {
                 int nAccomplishmentId = CsGameData.Instance.AccomplishmentList[i].AccomplishmentId;
 
@@ -425,7 +468,7 @@ public class CsAccomplishmentManager
                 lObjectiveValue = CsGameData.Instance.AccomplishmentList[i].ObjectiveValue;
             }
 
-            if (lObjectiveValue <= lAccValue)
+            if (lObjectiveValue <= lAccValue && m_listRewardedAccomplishments != null)
             {
                 int nAccomplishmentId = CsGameData.Instance.AccomplishmentList[i].AccomplishmentId;
                 if (m_listRewardedAccomplishments.FindIndex(a => a == nAccomplishmentId) == -1)
@@ -526,18 +569,18 @@ public class CsAccomplishmentManager
                 lObjectiveValue = CsGameData.Instance.AccomplishmentList[i].ObjectiveValue;
             }
 
-            if (lObjectiveValue <= lAccValue)
+            if (lObjectiveValue <= lAccValue && m_listRewardedAccomplishments != null)
             {
                 int nAccomplishmentId = CsGameData.Instance.AccomplishmentList[i].AccomplishmentId;
 
                 if (m_listRewardedAccomplishments.FindIndex(a => a == nAccomplishmentId) == -1)
                 {
-                    if (m_listAccomplishmentComplete.FindIndex(a => a == nAccomplishmentId) == -1)
-                    {
-                        UnityEngine.Debug.Log(">>>CsGameEventUIToUI.Instance.OnEventToastMessage<<< : " + CsGameData.Instance.AccomplishmentList[i].AccomplishmentId);
-                        CsGameEventUIToUI.Instance.OnEventToastMessage(EnToastType.Normal, string.Format(CsConfiguration.Instance.GetString("A82_TXT_02004"), CsGameData.Instance.GetAccomplishment(nAccomplishmentId).Name));
-                        m_listAccomplishmentComplete.Add(nAccomplishmentId);
-                    }
+					if (m_listAccomplishmentComplete != null && m_listAccomplishmentComplete.FindIndex(a => a == nAccomplishmentId) == -1)
+					{
+						UnityEngine.Debug.Log(">>>CsGameEventUIToUI.Instance.OnEventToastMessage<<< : " + CsGameData.Instance.AccomplishmentList[i].AccomplishmentId);
+						CsGameEventUIToUI.Instance.OnEventToastMessage(EnToastType.Normal, string.Format(CsConfiguration.Instance.GetString("A82_TXT_02004"), CsGameData.Instance.GetAccomplishment(nAccomplishmentId).Name));
+						m_listAccomplishmentComplete.Add(nAccomplishmentId);
+					}
 
                     if (CsGameData.Instance.AccomplishmentList[i].RewardType == 1)
                     {

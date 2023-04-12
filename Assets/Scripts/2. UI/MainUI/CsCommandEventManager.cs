@@ -70,44 +70,44 @@ public class CsCommandEventManager
     int m_nMissionId;
     int m_nStep;
 
-    // 오늘의할일
+    // 오늘의할일 今天的待办事项
     int m_nRewardNo;
 
-    // Vip레벨보상받기
+    // Vip레벨보상받기 赚取Vip级别的奖励
     int m_nVipLevel;
 
-    // 계급
+    // 계급 级别
     int m_nTargetRankNo;
 
-    // 도달보상
+    // 도달보상 达成奖励
     int m_nEntryNo;
 
-    // 설정
+    // 설정 设置
     int m_nLootingItemMinGrade;
 
 	int m_nSlotIndex;
 
-	// NPC상점
-	int m_nProductId;
+    // NPC상점 NPC商店
+    int m_nProductId;
 
 	int m_nTargetSkillId;
 
 	int m_nDay;
 
-	// 회수
-	int m_nRetrievalId;
+    // 회수 召回
+    int m_nRetrievalId;
 
-	// 할일위탁
-	Guid m_guidInstanceId;
+    // 할일위탁 委托任务
+    Guid m_guidInstanceId;
 
-	// 한정선물
-	int m_nScheduleId;
+    // 한정선물 有限的礼物
+    int m_nScheduleId;
 
-	// 주말보상
-	int m_nSelectionNo;
+    // 주말보상 周末奖励
+    int m_nSelectionNo;
 
-	// 공포의 제단
-	int m_nFearAltarHalidomCollectionRewardNo;
+    // 공포의 제단 恐惧的祭坛
+    int m_nFearAltarHalidomCollectionRewardNo;
 	int m_nFearAltarElementalId;
 
 	//---------------------------------------------------------------------------------------------------
