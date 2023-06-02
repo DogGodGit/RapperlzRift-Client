@@ -302,9 +302,25 @@ public class CsSceneIntro : CsScene
     //---------------------------------------------------------------------------------------------------
     IEnumerator LoadFontCoroutine()
     {
-        ResourceRequest resourceRequestFont = Resources.LoadAsync<Font>("Fonts/NanumBarunGothic");
-        yield return resourceRequestFont;
-        CsUIData.Instance.LoadFont((Font)resourceRequestFont.asset);
+        Font font = null;
+        if (CsUIData.Instance.Language == EnServerLanguage.ChineseSimplified)
+        {
+            ResourceRequest resourceRequestFont = Resources.LoadAsync<Font>("Fonts/RappelzFont_ZH");
+            yield return resourceRequestFont;
+            font = (Font)resourceRequestFont.asset;
+        }
+        else
+        {
+            font = Resources.Load<Font>("Fonts/RappelzFont");
+        }
+
+        if (font != null)
+        {
+            CsUIData.Instance.LoadFont(font);
+            InitializeLoadingUI();
+            InitializeUI();
+            m_csPanelModal.InitializeUI();
+        }
     }
 
     //---------------------------------------------------------------------------------------------------
@@ -2431,7 +2447,7 @@ public class CsSceneIntro : CsScene
 
 				Text textRecommend = trToggle.Find("ImageLabel/Text").GetComponent<Text>();
 				CsUIData.Instance.SetFont(textRecommend);
-				textRecommend.text = CsConfiguration.Instance.GetString("A01_TXT_00057");
+				textRecommend.text = CsConfiguration.Instance.GetString("A01_TXT_00054");
 				
 				Toggle toggle = trToggle.GetComponent<Toggle>();
 				toggle.group = toggleGroup;
@@ -4468,8 +4484,10 @@ public class CsSceneIntro : CsScene
 			else
 			{
 				RequestSupportedLanguages();
-			}
-		}
+            }
+
+            StartCoroutine(LoadFontCoroutine());
+        }
         else
         {
 			m_csPanelModal.Choice("SystemSettingASResponse : " + res.errorMessage, ReloadScene, "OK");
@@ -4509,12 +4527,12 @@ public class CsSceneIntro : CsScene
         {
             EnServerLanguage enServerLanguage = CsUIData.Instance.ConvertToServerLanguage(m_strSystemLanguage);
 
-			bool bExists = res.SupportedLanguageList.ContainsKey((int)enServerLanguage);
+            bool bExists = res.SupportedLanguageList.ContainsKey((int)enServerLanguage);
 
             if (bExists)
             {
                 CsUIData.Instance.Language = enServerLanguage;
-				CsUIData.Instance.MaintenanceInfoUrl = res.SupportedLanguageList[(int)enServerLanguage];
+                CsUIData.Instance.MaintenanceInfoUrl = res.SupportedLanguageList[(int)enServerLanguage];
             }
             else
             {

@@ -14,7 +14,7 @@ public class CsPanelModal : MonoBehaviour
     }
 
     //---------------------------------------------------------------------------------------------------
-    void InitializeUI()
+    public void InitializeUI()
     {
         m_trCommonModal = transform.Find("CommonModal");
 
