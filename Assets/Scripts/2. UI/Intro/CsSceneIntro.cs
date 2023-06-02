@@ -4506,7 +4506,7 @@ public class CsSceneIntro : CsScene
         cmd.Run();
     }
 
-    string m_strSystemLanguage = "ko";
+    //string m_strSystemLanguage = "ko";
 
     //---------------------------------------------------------------------------------------------------
     void ResponseSupportedLanguages(object sender, EventArgs e)
@@ -4525,7 +4525,7 @@ public class CsSceneIntro : CsScene
 
         if (res.isOK)
         {
-            EnServerLanguage enServerLanguage = CsUIData.Instance.ConvertToServerLanguage(m_strSystemLanguage);
+            /*EnServerLanguage enServerLanguage = CsUIData.Instance.ConvertToServerLanguage(m_strSystemLanguage);
 
             bool bExists = res.SupportedLanguageList.ContainsKey((int)enServerLanguage);
 
@@ -4538,7 +4538,10 @@ public class CsSceneIntro : CsScene
             {
                 CsUIData.Instance.Language = (EnServerLanguage)res.DefaultLanague;
 				CsUIData.Instance.MaintenanceInfoUrl = res.SupportedLanguageList[res.DefaultLanague];
-            }
+            }*/
+
+            CsUIData.Instance.Language = (EnServerLanguage)res.DefaultLanague;
+            CsUIData.Instance.MaintenanceInfoUrl = res.SupportedLanguageList[res.DefaultLanague];
 
             Debug.Log("CsUIData.Instance.Language : " + CsUIData.Instance.Language);
 
